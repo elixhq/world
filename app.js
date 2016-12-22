@@ -1,0 +1,15 @@
+var express = require("express");
+var app = express();
+
+app.get("/", function(req, res) {
+    res.sendStatus(200);
+});
+
+app.get("/world", function(req, res) {
+    var obj = {text:"World"}
+    res.send(obj);
+});
+ 
+var server = app.listen(process.env.PORT || 5000, function () {
+    console.log("Listening on port %s...", server.address().port);
+});

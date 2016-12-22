@@ -1,0 +1,15 @@
+{
+  "name": "world",
+  "version": "0.1.0",
+  "description": "world service api",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "elarasu",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
